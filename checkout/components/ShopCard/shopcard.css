@@ -1,0 +1,36 @@
+.shopCard {
+  box-shadow: 0 0 12px 0 rgba(0,0,0,.35);
+  padding: 12px;
+  margin: 5px;
+  flex-direction: column;
+  justify-content: start;
+  width: 200px;
+  min-height: 150px;
+}
+
+.shopCardTitle {
+  font-weight: bold;
+}
+
+.shopCardPrice {
+  margin-top: auto;
+  margin-left: auto;
+  font-size: 18px;
+  color: #53b4f5;
+} 
+
+.shopCardButton {
+  color: white;
+  background-color: #53b4f5;
+  margin-top: 3px;
+  padding: 5px;
+  border: none;
+}
+
+.shopCardButton:hover {
+  background-color: #84c4f0;
+}
+
+.shopCardButton:focus {
+  background-color: #4b7fa3;
+}
